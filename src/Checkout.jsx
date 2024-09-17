@@ -22,7 +22,8 @@ function Extension() {
   const cart = cartLines.map((line) => {
       return `${line.merchandise.id.split("/").pop()}:${line.quantity}`
   });
-  console.log(shop.storefrontUrl);
+
+  
   var cartLink = `${shop.storefrontUrl}/cart/`
   for (var i=0;i<cart.length;i++) {
     cartLink = cartLink+`${cart[i]}`
