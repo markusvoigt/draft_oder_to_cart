@@ -2,6 +2,8 @@
 
 Standard [Shopify draft order checkouts](https://help.shopify.com/en/manual/fulfillment/managing-orders/create-orders) do not allow the customer to edit their cart, e.g. by modifying line items or selecting a different variant. This repository demonstrates how to implement a "Edit My Cart" button in the Shopify Checkout UI using a Checkout UI Extension. This extension allows merchants to provide their customers with a direct link to edit their cart items in a draft order Checkout.
 
+**[Demo video](https://screenshot.click/17-28-03k83-xjqm6.mp4)**
+
 ## Overview
 
 The "Edit My Cart" button is rendered through a Shopify Checkout UI Extension using React. This extension checks if the cart can be modified (i.e., it's not a draft order), and if modifications are not allowed, it provides a link back to the cart page where items can be added or removed.
